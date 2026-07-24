@@ -13,6 +13,7 @@ function ViewSettings(props) {
         <div className={divClass}>
             <Project name="project 1" viewState={props.viewState} />
             <Project name="project 2" viewState={props.viewState} />
+            <Project name="name" viewState={props.viewState} />
         </div>
     );
 }

@@ -30,7 +30,7 @@ function App() {
         </div>
         <div className="navBar">
           <p>
-            nav bar placeholder? or some sort of filter area
+            nav bar placeholder? or some sort of filter/search area
           </p>
         </div>
       </section>
