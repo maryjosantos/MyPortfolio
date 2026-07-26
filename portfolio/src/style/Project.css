@@ -2,25 +2,31 @@
     color: green;
     padding: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 5px;
-    height: 200px;
-    writing-mode: vertical-lr;
-    text-orientation: upright;
+    height: auto;
     
 
     & h2 {
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        text-align: center;
         font-size: 90%;
+        letter-spacing: -5px;
         color: teal;
-        overflow: hidden;
+        overflow: overflow;
     }
 
     & .project {
         background-color: pink;
         padding: 10px;
         border-radius: 10%;
-        margin: 10px 5px;
+        margin: 1px;
         box-shadow: 2px -2px rgba(201, 114, 114, 0.5);
+    }
+
+    & .project:hover {
+        background-color: rgb(215, 149, 160);
     }
 }
 
