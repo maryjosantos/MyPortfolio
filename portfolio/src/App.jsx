@@ -43,7 +43,7 @@ function App() {
 
       <section id="social">
         <p>contact and connect!</p>
-        <p><a href="" target="_blank">maryjosantos.k@gmail.com</a> | <a href="" target="_blank">LinkedIn</a> | <a href="" target="_blank">GitHub</a></p>        
+        <p><a href="" target="_blank">maryjosantos@proton.me</a> | <a href="https://www.linkedin.com/in/maryjo-santos" target="_blank">LinkedIn</a> | <a href="https://github.com/maryjosantos" target="_blank">GitHub</a></p>        
       </section>
       {/* <section id="center">
         <div className="hero">
